@@ -42,5 +42,5 @@ complete_list_df = pd.DataFrame(complete_list)
 # complete_list_df
 
 complete_list_df.to_excel('lista_completa_Walmart.xls', index= False)
-from google.colab import files
-files.download('lista_completa_Walmart.xls')
+# from google.colab import files
+# files.download('lista_completa_Walmart.xls')
